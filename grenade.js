@@ -23,7 +23,7 @@
     throwable.frag.handImg.equip.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
     throwable.frag.lootImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
     throwable.frag.worldImg.sprite = "https://c.tenor.com/ULJn9_2K17UAAAAi/wazatoz-rick-roll.gif";
-    throwable.frag.worldImg.scale = .5;
+    throwable.frag.worldImg.scale = 5;
     throwable.frag.handImg.equip.cook.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
     throwable.frag.handImg.equip.throwing.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
 })()
