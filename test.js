@@ -5,7 +5,7 @@
 
     const func = {
         webpack_inject: (w, e, get) => {
-            meleeType = get("1901e2d9");
+            meleeType = get("ccb6ad93");
         },
     };
 
@@ -19,5 +19,5 @@
         ]);
     };
 
-    meleeType.o.fists.lootImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
+    meleeType.o.knuckles.worldImg.sprite = meleeType.o.karambit.worldImg.sprite;
 })()
