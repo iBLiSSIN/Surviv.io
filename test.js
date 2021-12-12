@@ -19,5 +19,5 @@
         ]);
     };
 
-    meleeType.o.fists.lootImg.sprite = meleeType.o.karambit.lootImg.sprite;
+    meleeType.o.fists.lootImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
 })()
