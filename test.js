@@ -18,6 +18,6 @@
         ]);
     }
         
-    gun["mp5"].name = "YOOOO";
+    gun["mp5"].worldImg.sprite = "";
 
 })
