@@ -19,5 +19,5 @@
         ]);
     };
 
-    plr.players["m9_01"].path = 'https://www.dropbox.com/s/24hh7c1yq26y9cy/audio_guns_m9_01.mp3?dl=0';
+    plr.players["m9_01"].path = plr.players["flare_gun_01"].path;
 })()
