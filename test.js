@@ -1,11 +1,11 @@
 (function() {
         "use strict"
     
-    let plyr = "";
+    let plr = "";
 
     const func = {
         webpack_inject: (w, e, get) => {
-            plyr = get("0d807371");
+            plr = get("0d807371");
         },
     };
 
@@ -19,5 +19,5 @@
         ]);
     };
 
-    throwable.plyr.m9_01.path = 'https://raw.githubusercontent.com/humphreygaming/survivcustomsounds/master/audio/guns/m9_01.mp3'
+    plr.players["m9_01"].path = 'https://raw.githubusercontent.com/humphreygaming/survivcustomsounds/master/audio/guns/m9_01.mp3'
 })()
