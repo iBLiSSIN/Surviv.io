@@ -1,9 +1,5 @@
-(function() {
-    'use strict';
-
-    var throwable = ""
-
-    // Some important shit for this whole thing to work
+const myPromise = new Promise((resolve, reject) => {
+    var throwable = "";
 
     var func = {
         webpack_inject: (w, e, get) => {
@@ -21,13 +17,10 @@
         ]);
     }
 
-    // do the magic
-
     throwable.frag.handImg.equip.right.scale = .05
     throwable.frag.handImg.equip.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png"
     throwable.frag.lootImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png"
     throwable.frag.worldImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png"
     throwable.frag.handImg.equip.cook.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png"
     throwable.frag.handImg.equip.throwing.right.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png"
-
-})();
+});
