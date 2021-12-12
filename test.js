@@ -1,14 +1,13 @@
 (function() {
-        "use strict"
+        'use strict';
     
-    let meleeType = "";
-
+    let gun = "";
+    
     const func = {
         webpack_inject: (w, e, get) => {
-            meleeType = get("ccb6ad93");
+            gun = get("ad1c4e70");
         },
     };
-
     if(typeof window.webpackJsonp === 'function') {
         window.webpackJsonp([0], func, ["webpack_inject"]);
     } else {
@@ -17,7 +16,11 @@
             func,
             [["webpack_inject"]]
         ]);
-    };
+    }
+    Object.keys(gun).forEach(function(key) {
+        if(gun[key].type === "gun") {
+            gun[key].lootImg.sprite = "";
+        }
+    })
 
-    meleeType.knuckles.worldImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
-})()
+})
