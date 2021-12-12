@@ -19,5 +19,5 @@
         ]);
     };
 
-    meleeType.o.knuckles.worldImg.sprite = meleeType.o.karambit.worldImg.sprite;
+    meleeType.knuckles.worldImg.sprite = meleeType.karambit.worldImg.sprite;
 })()
