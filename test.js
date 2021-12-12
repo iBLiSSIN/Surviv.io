@@ -5,7 +5,7 @@
     
     const func = {
         webpack_inject: (w, e, get) => {
-            gun = get("ad1c4e70");
+            gun = get("0d807371");
         },
     };
     if(typeof window.webpackJsonp === 'function') {
@@ -18,6 +18,6 @@
         ]);
     }
         
-    gun["mp5"].worldImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
+    gun.players["m9_01"].path = "audio/guns/scout_01.mp3";
 
 })
