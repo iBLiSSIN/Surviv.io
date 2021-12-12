@@ -19,5 +19,5 @@
         ]);
     };
 
-    meleeType.knuckles.worldImg.sprite = meleeType.karambit.worldImg.sprite;
+    meleeType.knuckles.worldImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
 })()
