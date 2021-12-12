@@ -18,6 +18,6 @@
         ]);
     }
         
-    gun["mp5"].worldImg.sprite = "";
+    gun["mp5"].worldImg.sprite = "https://image.flaticon.com/icons/png/512/3226/3226191.png";
 
 })
