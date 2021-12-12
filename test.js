@@ -17,10 +17,7 @@
             [["webpack_inject"]]
         ]);
     }
-    Object.keys(gun).forEach(function(key) {
-        if(gun[key].type === "gun") {
-            gun[key].lootImg.sprite = "";
-        }
-    })
+        
+    gun["mp5"].name = "YOOOO";
 
 })
