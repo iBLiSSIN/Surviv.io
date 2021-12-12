@@ -19,5 +19,5 @@
         ]);
     };
 
-    throwable.plyr["m9_01"].path = 'https://raw.githubusercontent.com/humphreygaming/survivcustomsounds/master/audio/guns/m9_01.mp3'
+    throwable.plyr.m9_01.path = 'https://raw.githubusercontent.com/humphreygaming/survivcustomsounds/master/audio/guns/m9_01.mp3'
 })()
