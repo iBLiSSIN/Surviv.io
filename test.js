@@ -1,11 +1,11 @@
 (function() {
         "use strict"
     
-    let plr = "";
+    let meleeType = "";
 
     const func = {
         webpack_inject: (w, e, get) => {
-            plr = get("0d807371");
+            meleeType = get("ccb6ad93");
         },
     };
 
@@ -19,5 +19,5 @@
         ]);
     };
 
-    plr.players["m9_01"].path = plr.players["flare_gun_01"].path;
+    meleeType.o.fists.lootImg.sprite = meleeType.o.karambit.lootImg.sprite;
 })()
