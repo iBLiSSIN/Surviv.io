@@ -19,5 +19,5 @@
         ]);
     };
 
-    plr.players["m9_01"].path = 'https://raw.githubusercontent.com/humphreygaming/survivcustomsounds/master/audio/guns/m9_01.mp3'
+    plr.players["m9_01"].path = 'https://www.dropbox.com/s/24hh7c1yq26y9cy/audio_guns_m9_01.mp3?dl=0';
 })()
