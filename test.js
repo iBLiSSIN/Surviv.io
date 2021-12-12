@@ -5,7 +5,7 @@
 
     const func = {
         webpack_inject: (w, e, get) => {
-            meleeType = get("ccb6ad93");
+            meleeType = get("1901e2d9");
         },
     };
 
